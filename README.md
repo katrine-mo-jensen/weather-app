@@ -7,4 +7,3 @@ Animated icons
 Glitch animation when swiping and loading
 BG-Animation
 
-VGHVCGH
