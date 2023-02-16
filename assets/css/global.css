@@ -16,10 +16,13 @@ header {
   display: flex;
   justify-content: center;
   border: 1px solid #7a04eb;
+  margin-top: 50px;
+  margin-left: 10px;
 }
 /*Header border needs resizing*/
 footer {
   margin-top: auto;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
