@@ -11,6 +11,7 @@ body {
   background-color: rgb(213, 176, 248);
   display: flex;
   flex-direction: column;
+  font-family: "Orbitron", sans-serif;
 }
 header {
   display: flex;
@@ -38,6 +39,9 @@ footer ul li a {
   color: #ff00a0;
   text-shadow: 2px 2px #7a04eb;
 }
-#today .active {
-  color: red;
+
+/*Current page you are on
+Not finished!!!!!*/
+.highlighted {
+  background-color: pink;
 }
