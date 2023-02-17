@@ -35,3 +35,6 @@ footer ul {
 footer ul li a {
   text-decoration: none;
 }
+#today .active {
+  color: red;
+}
