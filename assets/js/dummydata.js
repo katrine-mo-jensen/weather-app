@@ -18,7 +18,7 @@ function initApp() {
     let loadingScreen = document.createElement("div");
 
     let loadingImage = document.createElement("img");
-    loadingImage.src = "assets/purpleloading.gif";
+    loadingImage.src = "assets/img/purpleloading.gif";
   
     myApp.appendChild(loadingScreen);
     loadingScreen.appendChild(loadingImage);
