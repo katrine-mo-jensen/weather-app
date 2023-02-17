@@ -17,8 +17,10 @@ function initApp() {
     prepareUrl();
     let loadingScreen = document.createElement("div");
 
-    let loadingImage = document.createElement("img");
+
+    let loadingImage = document.createElement("img"); 
     loadingImage.src = "assets/img/purpleloading.gif";
+    // loadingImage.setAttribute("style", "height:auto");
   
     myApp.appendChild(loadingScreen);
     loadingScreen.appendChild(loadingImage);
@@ -390,7 +392,7 @@ function buildDayView() {
 
 
     let myWeatherTypeElement = document.createElement('img');
-    let myImage = `assets/img/weatherCodes/${myDay.weatherCode}.png`;
+    let myImage = `assets/img/${myDay.weatherCode}.png`;
     myWeatherTypeElement.src = myImage;
 
 
@@ -411,7 +413,7 @@ function buildDayView() {
     myWindElement.id = "windContainer";
 
     let myWindDirectionElement = document.createElement('img');
-    myWindDirectionElement.src = 'assets/img/icons/winddirection.svg';
+    myWindDirectionElement.src = 'assets/img/winddirection.svg';
     myWindDirectionElement.style.transform = `rotate(${myDay.windDirection}deg)`;
     myWindDirectionElement.id = "windDirection";
 
