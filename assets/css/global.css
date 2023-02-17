@@ -34,6 +34,9 @@ footer ul {
 }
 footer ul li a {
   text-decoration: none;
+  font-size: 1.8rem;
+  color: #ff00a0;
+  text-shadow: 2px 2px #7a04eb;
 }
 #today .active {
   color: red;
