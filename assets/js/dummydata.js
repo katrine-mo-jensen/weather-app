@@ -20,7 +20,7 @@ function initApp() {
 
     let loadingImage = document.createElement("img"); 
     loadingImage.src = "assets/img/purpleloading.gif";
-    // loadingImage.setAttribute("style", "height:auto");
+    loadingImage.setAttribute("style", "height:auto");
   
     myApp.appendChild(loadingScreen);
     loadingScreen.appendChild(loadingImage);
