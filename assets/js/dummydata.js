@@ -18,14 +18,17 @@ function initApp() {
     let loadingScreen = document.createElement("div");
 
 
-    let loadingImage = document.createElement("img"); 
-    loadingImage.src = "assets/img/purpleloading.gif";
+    // loadingImage.document.getElementsByClassName('loader');
+
+    // let loadingImage = document.createElement("img"); 
+    // loadingImage.src = "assets/img/purpleloading.gif";
     //styling 
     loadingImage.setAttribute("style", "height:auto");
   
     myApp.appendChild(loadingScreen);
     loadingScreen.appendChild(loadingImage);
 }
+
 
 
 // controller code --------------------------------------------------------------------------
