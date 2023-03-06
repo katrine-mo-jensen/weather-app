@@ -20,7 +20,6 @@ function initApp() {
 
     // loadingImage.document.getElementsByClassName('loader');
 
-
     // let loadingImage = document.createElement("img"); 
     // loadingImage.src = "assets/img/purpleloading.gif";
     //styling 
@@ -29,6 +28,7 @@ function initApp() {
     myApp.appendChild(loadingScreen);
     loadingScreen.appendChild(loadingImage);
 }
+
 
 
 // controller code --------------------------------------------------------------------------
