@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="assets/js/footer.js" defer></script>
+    <script src="assets/js/weatherData.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;800&display=swap"
       rel="stylesheet"
@@ -20,27 +21,26 @@
     <!-- HUSK AT defer BETYDER AT HTML SKAL LÆSES IGENNEM FØR JAVA SCRIPT KØRE -->
   </head>
   <body>
-    <header>
-      <h1>Aalborg</h1>
-    </header>
-    <main>
-      <section id="app"></section>
-
-      <h2>Today 08:00</h2>
-      <!-- <img src="" alt="compas"> -->
-      <p>Light air from south west (m/s)</p>
-
-      <h3>-2° Feels like -4°</h3>
-    </main>
-    <footer>
-      <nav>
-        <ul>
-          <li>
-            <a class="highlighted" id="today" href="/state2.html">Today</a>
-          </li>
-          <li><a id="forecast" href="/state3.html">Forecast</a></li>
-        </ul>
-      </nav>
-    </footer>
+    <body>
+      <header>
+        <h1 id="city">Aalborg</h1>
+      </header>
+      <main id="content">
+        <h2 id="dayAndTime">Today 08:00</h2>
+        <!-- <img src="" alt="compas"> -->
+        <p id="wind">Light air from south west (m/s)</p>
+  
+        <h3 id="temperature"></h3>
+      </main>
+      <footer>
+        <nav>
+          <ul>
+            <li>
+              <a class="highlighted" id="today" href="/state2.html">Today</a>
+            </li>
+            <li><a id="forecast" href="/state3.html">Forecast</a></li>
+          </ul>
+        </nav>
+      </footer>
   </body>
 </html>

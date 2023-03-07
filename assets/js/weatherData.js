@@ -24,14 +24,14 @@ function displayWeather(weatherData) {
   const { temperature } = weatherData.current_weather;
   // console.log(temperature);
   const { windspeed } = weatherData.current_weather;
-  // console.log(windspeed);
+  console.log(windspeed);
   const { winddirection } = weatherData.current_weather;
-  // console.log(winddirection);
+  console.log(winddirection);
   // console.log(timezone, time, temperature, windspeed, winddirection);
   document.getElementById("city").innerText = timezone;
-  document.getElementById("dayAndTime").innerText = "dato & tid " + time;
+  document.getElementById("dayAndTime").innerText = "Dato & tid: " + time;
   document.getElementById("wind").innerText =
-    "vindhastighed og retning " + windspeed + winddirection;
+    "Vindhastighed: " + windspeed + " og retning: " + winddirection;
   document.getElementById("temperature").innerText =
-    "temperatur " + temperature;
+    "Temperatur: " + temperature;
 }
