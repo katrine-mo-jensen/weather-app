@@ -9,7 +9,7 @@ let myFetch = fetch(weatherAPI)
     return response.json();
   })
   .then((data) => {
-    console.log(data);
+    //console.log(data);
     displayWeather(data);
   })
   .catch((error) => {
@@ -24,9 +24,9 @@ function displayWeather(weatherData) {
   const { temperature } = weatherData.current_weather;
   // console.log(temperature);
   const { windspeed } = weatherData.current_weather;
-  console.log(windspeed);
+  //console.log(windspeed);
   const { winddirection } = weatherData.current_weather;
-  console.log(winddirection);
+  //console.log(winddirection);
   // console.log(timezone, time, temperature, windspeed, winddirection);
   document.getElementById("city").innerText = timezone;
   document.getElementById("dayAndTime").innerText = "Dato & tid: " + time;
