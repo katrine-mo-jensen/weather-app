@@ -27,5 +27,11 @@ function displayWeather(weatherData) {
   // console.log(windspeed);
   const { winddirection } = weatherData.current_weather;
   // console.log(winddirection);
-  console.log(timezone, time, temperature, windspeed, winddirection);
+  // console.log(timezone, time, temperature, windspeed, winddirection);
+  document.getElementById("city").innerText = timezone;
+  document.getElementById("dayAndTime").innerText = "dato & tid " + time;
+  document.getElementById("wind").innerText =
+    "vindhastighed og retning " + windspeed + winddirection;
+  document.getElementById("temperature").innerText =
+    "temperatur " + temperature;
 }
