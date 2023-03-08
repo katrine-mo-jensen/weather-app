@@ -42,7 +42,7 @@ function geoFindMe() {
       const longitude = position.coords.longitude;
   
       status.textContent = "";
-      mapLink.href = `https://www.openstreetmap.org/#map=18/${latitude}/${longitude}/${longitude}`;
+      mapLink.href = `https://www.openstreetmap.org/#map=18/${latitude}/${longitude}/${city}`;
       mapLink.textContent = `Latitude: ${latitude} °, Longitude: ${longitude} °`;
     }
   
