@@ -28,7 +28,7 @@ function initApp() {
 }
 
 
-// geoloacation -------------------
+// Geoloacation -------------------
 
 function geoFindMe() {
     const status = document.querySelector("#status");
