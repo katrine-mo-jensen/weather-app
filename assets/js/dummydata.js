@@ -28,7 +28,7 @@ function initApp() {
 }
 
 
-// Geoloacation -------------------
+// Geoloacation --------------------------------
 
 function geoFindMe() {
     const status = document.querySelector("#status");
@@ -53,7 +53,7 @@ function geoFindMe() {
     if (!navigator.geolocation) {
       status.textContent = "Geolocation is not supported by your browser";
     } else {
-      status.textContent = "Locating…";
+      status.textContent = "Locating…Please wait";
       navigator.geolocation.getCurrentPosition(success, error);
     }
   }
